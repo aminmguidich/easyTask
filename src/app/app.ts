@@ -11,7 +11,6 @@ import { Tasks } from './tasks/tasks';
   styleUrl: './app.css'
 })
 export class App {
-  protected readonly title = signal('angular-project');
   users = DUMMY_USERS;
   selectedUserId?: string;
 
